@@ -23,9 +23,7 @@ const login = () => {
         setMata(!mata)
     }
 
-    const onchangeEmail = () => {
 
-    }
 
     return (
         <div className={styles['home-page']}>
