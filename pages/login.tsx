@@ -49,12 +49,13 @@ const login = () => {
                                 <FontAwesomeIcon icon={mata ? faEyeSlash : faEye} className='absolute pt-2 right-3 text-gray-500 cursor-pointer' onClick={clickMata} />
                             </div>
 
+                            <Link href='/'><p className='text-sm mb-3 text-blue-400 cursor-pointer'>Lupa Password ?</p></Link>
 
 
                             <Btn title={'Login'} clickHandler={() => console.log('rviopelu')} />
                         </form>
                     </div>
-                    <div className="h1">Belum Mempunyai akun ? <Link href={'/register'} ><p className='text-blue-600 hover:text-blue-800 cursor-pointer'>Silahkan Login</p></Link></div>
+                    <div className="h1">Belum Mempunyai akun ? <Link href={'/register'} ><p className='text-blue-600 hover:text-blue-800 cursor-pointer'>Silahkan Mendaftar</p></Link></div>
                 </div>
             </div>
         </div >
